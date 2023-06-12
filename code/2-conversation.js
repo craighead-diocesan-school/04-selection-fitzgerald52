@@ -39,10 +39,35 @@ function conversation() {
    } else{
     alert('perhaps you have other hobbies')
    }
-
-}
-alert('Goodbye')
+   
+  }
+  alert('Goodbye')
 }
 function age() {
   // write your code here
+  alert('Hello welcome to my age conversation program')
+  alert('what is your name ?')
+  let name = prompt()
+  alert('wow ' + name + ' is such a cool name')
+  
+  alert('How old are you ?')
+  let answer =prompt()
+  answer = Number(answer)
+  
+  if(answer > 65) {
+    alert('wow you are old enough to retire')
+  } else if (answer > 50){
+ alert( 'wow you are middle aged !')
+  } else if (answer > 30){
+  alert('that is so cool you must have your life together') 
+} else if (answer > 18) {
+  alert('wow you are an adult')
+} else if (answer > 15){
+  alert('wow you can drive')
+} else if (answer > 12){
+  alert( 'wow you are a teenager')
+} else if (answer > 5){
+  alert('you can go to primary school !')
 }
+alert('Goodbye')
+
