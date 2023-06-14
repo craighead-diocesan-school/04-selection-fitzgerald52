@@ -11,4 +11,11 @@ if (answer == 'paris') {
 } else {
   alert('sorry that is incorrect')
 }
+let second = prompt('Another quick question, what is the capital of New Zeland')
+if (answer == 'wellington') {
+  alert("that's right " + name)
+} else {
+  alert('sorry that is incorrect')
+}
+alert('good work !')
 }
