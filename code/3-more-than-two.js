@@ -10,7 +10,10 @@ function moreThanTwo() {
     answer = Number(answer)
     if (answer > 2){
       alert ( answer + ' is more than 2')
-    } else {
+    } else if (answer == 2) {
+      alert('that is 2 ')
+    }
+    else {
       alert ( answer + ' is less than 2')
     }
     startstop = prompt('would you like to compare another number? if not say stop')
