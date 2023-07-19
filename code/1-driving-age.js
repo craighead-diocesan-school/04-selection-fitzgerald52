@@ -5,10 +5,10 @@
 function drivingAge() {
   let age = prompt('what is your age ?')
   age = Number(age)
-
-  if (age > 16) {
+  const minagetodrive = 16
+  if (age > minagetodrive) {
     alert("You're old enough to drive.")
-  } else{
+  } else {
     alert('You are not old enough to drive yet.')
   }
 }
